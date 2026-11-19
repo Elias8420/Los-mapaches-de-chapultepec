@@ -1,13 +1,13 @@
 class Nodo:
-    def __init__(self, etiqueta, hijos=None, valor=None):
+    def __init__(self, etiqueta, hijos=None, valor=None, linea=None, col=None):
         self.etiqueta = etiqueta
-        self.hijos = hijos or []
+        self.hijos = hijos if hijos is not None else []
         self.valor = valor
+        self.linea = linea
+        self.col = col  
  
     def _texto(self):
-        if self.valor is not None:
-            return f"{self.etiqueta}: {self.valor}"
-        return self.etiqueta
+        return f"{self.etiqueta}: {self.valor}" if self.valor is not None else self.etiqueta
  
     def imprimir(self, prefijo="", ultimo=True, raiz=True):
         if raiz:

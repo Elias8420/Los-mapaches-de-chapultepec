@@ -44,7 +44,7 @@ class Parser:
         if tok.tipo != tipo:
             raise ErrorSintactico(f"se esperaba {tipo!r} pero llegó {self._desc(tok)}", tok)
         self.pos += 1
-        return Nodo(tok.tipo, valor=tok.valor if tok.tipo in ("ID", "NUM", "INCLUDE") else None)
+        return Nodo(tok.tipo, valor=tok.valor if tok.tipo in ("ID", "NUM", "INCLUDE") else None, linea=tok.linea, col=tok.col)
 
     # ---------- programa y funciones ----------
     def programa(self):
