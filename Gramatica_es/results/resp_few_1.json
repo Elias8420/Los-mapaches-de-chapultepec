@@ -1,0 +1,17 @@
+[
+{"id": "S01", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con concordancia."},
+{"id": "S02", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s (SN_fs) SV_3s (Vt_3s SNo)."},
+{"id": "S03", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_1s (Pron_1s) SV_1s (Vt_1s SNo)."},
+{"id": "S04", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s (NP_f) SV_3s (Vt_3s SNo)."},
+{"id": "S05", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3p (SN_mp) SV_3p (Vi_3p)."},
+{"id": "S06", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_1p (Pron_1p) SV_1p (Vt_1p SNo)."},
+{"id": "S07", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s (Det_fs N_fs ADJS_fs) SV_3s."},
+{"id": "S08", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3p (Det_mp N_mp ADJS_mp) SV_3p."},
+{"id": "S09", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s (Det_fs N_fs ADJS_fs) SV_3s."},
+{"id": "S10", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s (NP_m) SV_3s (Vt_3s SNo)."},
+{"id": "S11", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3p (Pron_3p) SV_3p (Vi_3p)."},
+{"id": "S12", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_2s (Pron_2s) SV_2s (Vt_2s SNo)."},
+{"id": "S13", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de género entre Det_fs (la) y N_ms (gato)."},
+{"id": "S14", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de género entre SN_ms (el gato) y Adj_fs (negra)."},
+{"id": "S15", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de número entre SNs_3p (los gatos) y SV_3s (duerme)."}
+]

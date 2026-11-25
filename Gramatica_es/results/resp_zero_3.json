@@ -1,0 +1,17 @@
+[
+{"id": "I11", "aceptada": false, "error_etiquetado": false, "motivo": "El verbo principal 'creo' (Vci_1s) exige 'Que O' en indicativo, mientras que la subordinada tiene 'vengas' (subjuntivo)."},
+{"id": "I12", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'la profesora' (SN_fs), 'miró' (Vt_3s), 'la carta' (SNo/SN_fs) y 'con atención' (SP/MV)."},
+{"id": "I13", "aceptada": false, "error_etiquetado": false, "motivo": "Incompatibilidad temporal y de concordancia entre 'duerme' (presente, Vi_3s) y 'ayer' (pasado, Adv)."},
+{"id": "I14", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'ana' (NP_f), 'sabe' (Vci_3s) y 'que nosotros leemos los libros' (Que O)."},
+{"id": "I15", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'pedro' (NP_m), 'espera' (Vcs_3s) y 'que las niñas lleguen' (Que Os con Vi_3p_subj)."},
+{"id": "I16", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3p SV_3p con 'los estudiantes felices' (SN_mp con ADJS_mp), 'leen' (Vi_3p) y 'siempre' (Adv/MV)."},
+{"id": "I17", "aceptada": false, "error_etiquetado": false, "motivo": "La regla SVn_3s produce 'Vt_3s SNo' y MV se deriva en SV_3s, por lo que no admite el adverbio 'rápidamente' intercalado entre el verbo y su objeto directo."},
+{"id": "I18", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'la gata pequeña' (SN_fs con ADJS_fs), 'duerme' (Vi_3s) y 'en la mesa' (SP/MV)."},
+{"id": "I19", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'luis' (NP_m), 'piensa' (Vci_3s) y 'que el perro corre lentamente' (Que O con Adv/MV)."},
+{"id": "I20", "aceptada": false, "error_etiquetado": true, "motivo": "Falta de concordancia de número entre 'el gato' (SN_ms) y 'rojos' (Adj_mp, fuera de ADJS_ms)."},
+{"id": "C01", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable recursivamente mediante 'Vci_3s Que O' en las cláusulas subordinadas hasta 'el niño duerme'."},
+{"id": "C02", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'juan' (NP_m), 'dice' (Vci_3s) y 'que el niño duerme lentamente' (Que O con Vi_3s y Adv/MV)."},
+{"id": "C03", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'el niño' (SN_ms), 'come el pescado' (Vt_3s SNo) y 'en la casa' (SP/MV)."},
+{"id": "C04", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable desde O -> SNs_3s SV_3s con 'el niño' (SN_ms), 'vio la casa' (Vt_3s SNo) y 'con el telescopio' (SP/MV)."},
+{"id": "C05", "aceptada": false, "error_etiquetado": false, "motivo": "Toda producción de O exige un sujeto explícito (SNs_1p 'nosotros' para SV_1p), por lo que el sujeto tácito no es derivable."}
+]

@@ -1,0 +1,17 @@
+[
+{"id": "C06", "aceptada": false, "error_etiquetado": false, "motivo": "Las reglas de O requieren SNs explícito antes de SV."},
+{"id": "C07", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s mediante SN_fs (Det_fs N_fs ADJS_fs) y SV_3s (Vi_3s MV)."},
+{"id": "C08", "aceptada": false, "error_etiquetado": true, "motivo": "zanahoria no pertenece al léxico/categorías definidas."},
+{"id": "C09", "aceptada": false, "error_etiquetado": true, "motivo": "Faltan conectores/reglas para coordinación múltiple ('y', 'respectivamente') y categorías no declaradas en producciones."},
+{"id": "C10", "aceptada": false, "error_etiquetado": true, "motivo": "Signos de puntuación, coordinación múltiple y 'respectivamente' no están cubiertos por las producciones."},
+{"id": "C11", "aceptada": false, "error_etiquetado": true, "motivo": "Signos de puntuación, coordinación múltiple, 'respectivamente' y posible discordancia de género no están cubiertos."},
+{"id": "C12", "aceptada": false, "error_etiquetado": false, "motivo": "No hay reglas de oración subordinada relativa ('que') ni cópula ('es') en CFG_v4."},
+{"id": "C13", "aceptada": false, "error_etiquetado": false, "motivo": "No hay reglas de cláusula relativa ('que') ni verbo copulativo ('son') en la gramática."},
+{"id": "C14", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con Vt_3s A SNo y MV -> SP MV (en el parque)."},
+{"id": "C15", "aceptada": false, "error_etiquetado": false, "motivo": "CFG_v4 carece de reglas para cláusulas relativas con 'que' y predicados copulativos ('es')."},
+{"id": "C16", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con Vi_3s y dos sintagmas preposicionales en MV."},
+{"id": "C17", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable mediante incrustación recursiva de Vci_3s Que O y Vcs_3s Que Os."},
+{"id": "C18", "aceptada": false, "error_etiquetado": false, "motivo": "Las producciones de SN_ms no incluyen cláusulas relativas introducidas por 'que'."},
+{"id": "C19", "aceptada": false, "error_etiquetado": false, "motivo": "No hay reglas para cláusulas relativas con 'que' dentro de SN_fp."},
+{"id": "C20", "aceptada": false, "error_etiquetado": true, "motivo": "Puntuación, coordinación múltiple y 'respectivamente' no están contemplados en las reglas de derivación."}
+]

@@ -1,0 +1,139 @@
+{
+  "LLM_zero-shot (gemini-3.5-flash)": [
+    {
+      "id": "C06",
+      "nivel": "3_complejo",
+      "fenomeno": "inversion_sujeto_vs",
+      "texto": "duermen los gatos",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C07",
+      "nivel": "3_complejo",
+      "fenomeno": "adjetivo_antepuesto",
+      "texto": "la pequeña niña duerme",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C08",
+      "nivel": "3_complejo",
+      "fenomeno": "palabra_fuera_lexico",
+      "texto": "el gato come la zanahoria",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C09",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n2",
+      "texto": "ana y luis son doctora y abogado respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C10",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n3",
+      "texto": "ana, luis y pedro son doctora, ingeniero y abogado respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C11",
+      "nivel": "3_complejo",
+      "fenomeno": "dep_cruzada_genero_roto",
+      "texto": "ana, luis y pedro son doctora, ingeniera y abogado respectivamente",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C12",
+      "nivel": "3_complejo",
+      "fenomeno": "oracion_relativa_que",
+      "texto": "el libro que lee ana es grande",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C13",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_y_concordancia_distancia",
+      "texto": "los niños que duermen en el parque son felices",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C14",
+      "nivel": "3_complejo",
+      "fenomeno": "objeto_directo_con_a_personal",
+      "texto": "ana vio a juan en el parque",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C15",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_fuera_lexico_v",
+      "texto": "la carta que escriben los estudiantes es roja",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C16",
+      "nivel": "3_complejo",
+      "fenomeno": "cadena_sp_anidados",
+      "texto": "el niño duerme en el parque con el perro negro",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C17",
+      "nivel": "3_complejo",
+      "fenomeno": "subordinada_anidada_modo",
+      "texto": "pedro quiere que ana diga que luis venga",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C18",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_con_adverbio",
+      "texto": "el niño que corre rápido come el pescado",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C19",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_y_tiempo_verbal",
+      "texto": "las niñas felices que duermen llegan ayer",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C20",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n4",
+      "texto": "ana, luis, pedro y maría son doctora, ingeniero, abogado y doctora respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    }
+  ]
+}

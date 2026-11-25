@@ -1,0 +1,17 @@
+[
+{"id": "S16", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de persona/número entre SNs_1s (yo) y SV_2s (comes)."},
+{"id": "S17", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de número entre SNs_3p (las niñas) y SV_3s (lee)."},
+{"id": "S18", "aceptada": false, "error_etiquetado": false, "motivo": "Discordancia de género/número en SN y orden SVO no derivable desde O."},
+{"id": "S19", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con Vi_3s y MV -> Adv MV."},
+{"id": "S20", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con NP_f, Vi_3s y MV -> ε."},
+{"id": "I01", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con SN_ms -> Det_ms N_ms ADJS_ms y Vt_3s SNo."},
+{"id": "I02", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con Vi_3s y MV -> Adv MV."},
+{"id": "I03", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable en O -> SNs_3s SV_3s con Vi_3s y MV -> SP MV."},
+{"id": "I04", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vci_3s Que O y cláusula incrustada aceptada."},
+{"id": "I05", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vci_3s Que O y cláusula incrustada Vi_3s."},
+{"id": "I06", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vcs_3s Que Os y subjuntivo Vi_3s_subj."},
+{"id": "I07", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vcs_1s Que Os y subjuntivo Vi_2s_subj."},
+{"id": "I08", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vcs_3s Que Os y subjuntivo Vt_3s_subj SNo."},
+{"id": "I09", "aceptada": true, "error_etiquetado": false, "motivo": "Derivable con Vci_1s Que O e indicativo Vi_2s."},
+{"id": "I10", "aceptada": false, "error_etiquetado": false, "motivo": "Vcs_1s exige Que Os (subjuntivo), pero 'vienes' corresponde a indicativo (O)."}
+]

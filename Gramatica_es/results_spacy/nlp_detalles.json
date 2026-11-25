@@ -1,0 +1,4455 @@
+{
+  "spacy": [
+    {
+      "id": "S01",
+      "nivel": "1_simple",
+      "fenomeno": "svo_presente",
+      "texto": "el gato come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Imp",
+            "Number": "Sing",
+            "Person": "3",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "nivel": "1_simple",
+      "fenomeno": "svo_presente",
+      "texto": "la niña lee un libro",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niña",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niña",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "lee",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "lee",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "lee",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "un",
+          "pos": "DET",
+          "dep": "det",
+          "head": "libro",
+          "morph": {
+            "Definite": "Ind",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "libro",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "lee",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "nivel": "1_simple",
+      "fenomeno": "pron_sujeto_svo",
+      "texto": "yo veo la casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "veo",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "veo",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "veo",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casa",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casa",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "veo",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "nivel": "1_simple",
+      "fenomeno": "np_sujeto_svo",
+      "texto": "ana compra una casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "ADJ",
+          "dep": "nsubj",
+          "head": "compra",
+          "morph": {}
+        },
+        {
+          "texto": "compra",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "compra",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "una",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casa",
+          "morph": {
+            "Definite": "Ind",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casa",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "compra",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "nivel": "1_simple",
+      "fenomeno": "intransitivo_plural",
+      "texto": "los gatos duermen",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gatos",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gatos",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duermen",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "duermen",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duermen",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "nivel": "1_simple",
+      "fenomeno": "1p_svo",
+      "texto": "nosotros leemos los libros",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "nosotros",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "leemos",
+          "morph": {
+            "Case": "Acc,Nom",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "leemos",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "leemos",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "libros",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "libros",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "leemos",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "nivel": "1_simple",
+      "fenomeno": "concordancia_adj",
+      "texto": "la gata negra come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gata",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gata",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "negra",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gata",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "nivel": "1_simple",
+      "fenomeno": "concordancia_adj_inv",
+      "texto": "los niños felices duermen",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niños",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niños",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duermen",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "felices",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "niños",
+          "morph": {
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "duermen",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duermen",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "nivel": "1_simple",
+      "fenomeno": "genero_ambiguo_n",
+      "texto": "una estudiante grande duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "una",
+          "pos": "DET",
+          "dep": "det",
+          "head": "estudiante",
+          "morph": {
+            "Definite": "Ind",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "estudiante",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "grande",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "estudiante",
+          "morph": {
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "nivel": "1_simple",
+      "fenomeno": "preterito_svo",
+      "texto": "pedro miró la carta",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "miró",
+          "morph": {}
+        },
+        {
+          "texto": "miró",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "miró",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "carta",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "carta",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "miró",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "nivel": "1_simple",
+      "fenomeno": "3p_f_intransitivo",
+      "texto": "ellas corren",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ellas",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "corren",
+          "morph": {
+            "Case": "Acc,Nom",
+            "Gender": "Fem",
+            "Number": "Plur",
+            "Person": "3",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "corren",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "corren",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "nivel": "1_simple",
+      "fenomeno": "2s_svo",
+      "texto": "tú lees una carta",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "tú",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "lees",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "2",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "lees",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "lees",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "una",
+          "pos": "DET",
+          "dep": "det",
+          "head": "carta",
+          "morph": {
+            "Definite": "Ind",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "carta",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "lees",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_det_n",
+      "texto": "la gato come el pescado",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Imp",
+            "Number": "Sing",
+            "Person": "3",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_n_adj",
+      "texto": "el gato negra come el pescado",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "negra",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gato",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_num_sv",
+      "texto": "los gatos duerme",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gatos",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gatos",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_pers_sv",
+      "texto": "yo comes el pescado",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "comes",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "comes",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "comes",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "2",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "comes",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_num_sv",
+      "texto": "las niñas lee el libro",
+      "esperado_valido": false,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "las",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niñas",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niñas",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "lee",
+          "morph": {}
+        },
+        {
+          "texto": "lee",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "lee",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "libro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "libro",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "lee",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_multiple",
+      "texto": "un casas blancas compró luis",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "un",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casas",
+          "morph": {
+            "Definite": "Ind",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casas",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "compró",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "blancas",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "casas",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "compró",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "compró",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "obj",
+          "head": "compró",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "nivel": "1_simple",
+      "fenomeno": "fuera_lexico_v_adv",
+      "texto": "el perro ladró fuerte",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "perro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "perro",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "perro",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "ladró",
+          "pos": "NOUN",
+          "dep": "appos",
+          "head": "perro",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "fuerte",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "perro",
+          "morph": {
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "nivel": "1_simple",
+      "fenomeno": "transitivo_sin_obj_cfg",
+      "texto": "sofía come",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "sofía",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {}
+        },
+        {
+          "texto": "come",
+          "pos": "PROPN",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "I01",
+      "nivel": "2_intermedio",
+      "fenomeno": "multiples_adjetivos",
+      "texto": "el gato negro grande come el pescado",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "negro",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gato",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "grande",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gato",
+          "morph": {
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I02",
+      "nivel": "2_intermedio",
+      "fenomeno": "adverbio_modo",
+      "texto": "el niño corre rápidamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "corre",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "corre",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "corre",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "rápidamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "corre",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "I03",
+      "nivel": "2_intermedio",
+      "fenomeno": "frase_preposicional_sv",
+      "texto": "el niño duerme en la casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "casa",
+          "morph": {}
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casa",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casa",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I04",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_indicativo",
+      "texto": "juan dice que el gato come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "dice",
+          "morph": {}
+        },
+        {
+          "texto": "dice",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "dice",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "come",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "dice",
+          "morph": {
+            "Mood": "Imp",
+            "Number": "Sing",
+            "Person": "3",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I05",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_indicativo",
+      "texto": "maría cree que el niño duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "maría",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "cree",
+          "morph": {}
+        },
+        {
+          "texto": "cree",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "cree",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "duerme",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "cree",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I06",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_subjuntivo",
+      "texto": "juan quiere que el gato venga",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "quiere",
+          "morph": {}
+        },
+        {
+          "texto": "quiere",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "quiere",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "venga",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "venga",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "venga",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "quiere",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I07",
+      "nivel": "2_intermedio",
+      "fenomeno": "subjuntivo_2s",
+      "texto": "yo quiero que tú vengas",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "quiero",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "quiero",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "quiero",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "vengas",
+          "morph": {}
+        },
+        {
+          "texto": "tú",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "vengas",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "2",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "vengas",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "quiero",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I08",
+      "nivel": "2_intermedio",
+      "fenomeno": "subjuntivo_vt",
+      "texto": "juan quiere que el niño coma el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "quiere",
+          "morph": {}
+        },
+        {
+          "texto": "quiere",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "quiere",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "coma",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "coma",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "coma",
+          "pos": "ADJ",
+          "dep": "ccomp",
+          "head": "quiere",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing",
+            "VerbForm": "Part"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "coma",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I09",
+      "nivel": "2_intermedio",
+      "fenomeno": "indicativo_creer",
+      "texto": "yo creo que tú vienes",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "creo",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "creo",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "creo",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "vienes",
+          "morph": {}
+        },
+        {
+          "texto": "tú",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "vienes",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "2",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "vienes",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "creo",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "2",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I10",
+      "nivel": "2_intermedio",
+      "fenomeno": "modo_erroneo_subj_esperado",
+      "texto": "yo quiero que tú vienes",
+      "esperado_valido": false,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "quiero",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "quiero",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "quiero",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "vienes",
+          "morph": {}
+        },
+        {
+          "texto": "tú",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "vienes",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "2",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "vienes",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "quiero",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "2",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I11",
+      "nivel": "2_intermedio",
+      "fenomeno": "modo_erroneo_ind_esperado",
+      "texto": "yo creo que tú vengas",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "yo",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "creo",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "creo",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "creo",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "vengas",
+          "morph": {}
+        },
+        {
+          "texto": "tú",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "vengas",
+          "morph": {
+            "Case": "Nom",
+            "Number": "Sing",
+            "Person": "2",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "vengas",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "creo",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I12",
+      "nivel": "2_intermedio",
+      "fenomeno": "sp_fuera_lexico",
+      "texto": "la profesora miró la carta con atención",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "profesora",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "profesora",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "miró",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "miró",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "miró",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "carta",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "carta",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "miró",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "con",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "atención",
+          "morph": {}
+        },
+        {
+          "texto": "atención",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "miró",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13",
+      "nivel": "2_intermedio",
+      "fenomeno": "adj_adv_sp_combinados",
+      "texto": "el perro grande duerme ayer en el parque",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "perro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "perro",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {}
+        },
+        {
+          "texto": "grande",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "perro",
+          "morph": {
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "ayer",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "duerme",
+          "morph": {}
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "parque",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "parque",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "parque",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_1p",
+      "texto": "ana sabe que nosotros leemos los libros",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "sabe",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "sabe",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "sabe",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "leemos",
+          "morph": {}
+        },
+        {
+          "texto": "nosotros",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "leemos",
+          "morph": {
+            "Case": "Acc,Nom",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "Person": "1",
+            "PronType": "Prs"
+          }
+        },
+        {
+          "texto": "leemos",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "sabe",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "libros",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "libros",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "leemos",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I15",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_3p_subj",
+      "texto": "pedro espera que las niñas lleguen",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "espera",
+          "morph": {}
+        },
+        {
+          "texto": "espera",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "espera",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "lleguen",
+          "morph": {}
+        },
+        {
+          "texto": "las",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niñas",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niñas",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "lleguen",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "lleguen",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "espera",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I16",
+      "nivel": "2_intermedio",
+      "fenomeno": "genero_comun_adv",
+      "texto": "los estudiantes felices leen siempre",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "estudiantes",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "estudiantes",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "leen",
+          "morph": {
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "felices",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "estudiantes",
+          "morph": {
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "leen",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "leen",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "siempre",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "leen",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "I17",
+      "nivel": "2_intermedio",
+      "fenomeno": "adv_entre_v_y_obj",
+      "texto": "el niño come rápidamente el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "rápidamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "come",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I18",
+      "nivel": "2_intermedio",
+      "fenomeno": "sn_con_sp_locativo",
+      "texto": "la gata pequeña duerme en la mesa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gata",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gata",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "pequeña",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gata",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "mesa",
+          "morph": {}
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "mesa",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "mesa",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I19",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_adv_modo",
+      "texto": "luis piensa que el perro corre lentamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "piensa",
+          "morph": {}
+        },
+        {
+          "texto": "piensa",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "piensa",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "corre",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "perro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "perro",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "corre",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "corre",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "piensa",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "lentamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "corre",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "I20",
+      "nivel": "2_intermedio",
+      "fenomeno": "error_conc_det_adj",
+      "texto": "el gato rojos duerme en el parque",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": true,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "rojos",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "gato",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "parque",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "parque",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "parque",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "nivel": "3_complejo",
+      "fenomeno": "recursion_subordinada_doble",
+      "texto": "maría dice que juan cree que el niño duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "maría",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "dice",
+          "morph": {}
+        },
+        {
+          "texto": "dice",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "dice",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "cree",
+          "morph": {}
+        },
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "cree",
+          "morph": {}
+        },
+        {
+          "texto": "cree",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "dice",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "duerme",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "cree",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_adjuncion_adv",
+      "texto": "juan dice que el niño duerme lentamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "dice",
+          "morph": {}
+        },
+        {
+          "texto": "dice",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "dice",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "duerme",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "dice",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "lentamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "duerme",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_pp_sv_sn",
+      "texto": "el niño come el pescado en la casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Imp",
+            "Number": "Sing",
+            "Person": "3",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "casa",
+          "morph": {}
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casa",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casa",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "come",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_pp_y_pragmatica",
+      "texto": "el niño vio la casa con el telescopio",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "vio",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "vio",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "vio",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "casa",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "casa",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "vio",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "con",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "telescopio",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "telescopio",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "telescopio",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "vio",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "nivel": "3_complejo",
+      "fenomeno": "sujeto_omitido_pro_drop",
+      "texto": "comemos el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "comemos",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "comemos",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "1",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "comemos",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "nivel": "3_complejo",
+      "fenomeno": "inversion_sujeto_vs",
+      "texto": "duermen los gatos",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "duermen",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duermen",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gatos",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gatos",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duermen",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "nivel": "3_complejo",
+      "fenomeno": "adjetivo_antepuesto",
+      "texto": "la pequeña niña duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niña",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pequeña",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "niña",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "niña",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "nivel": "3_complejo",
+      "fenomeno": "palabra_fuera_lexico",
+      "texto": "el gato come la zanahoria",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "gato",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "gato",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Imp",
+            "Number": "Sing",
+            "Person": "3",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "zanahoria",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "zanahoria",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n2",
+      "texto": "ana y luis son doctora y abogado respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "ADV",
+          "dep": "nsubj",
+          "head": "doctora",
+          "morph": {}
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "luis",
+          "morph": {}
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "son",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "doctora",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "doctora",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "abogado",
+          "morph": {}
+        },
+        {
+          "texto": "abogado",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "respectivamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "doctora",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n3",
+      "texto": "ana, luis y pedro son doctora, ingeniero y abogado respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "ADV",
+          "dep": "nsubj",
+          "head": "doctora",
+          "morph": {}
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "pedro",
+          "morph": {}
+        },
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "son",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "doctora",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "doctora",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "ingeniero",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "abogado",
+          "morph": {}
+        },
+        {
+          "texto": "abogado",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "respectivamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "doctora",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "nivel": "3_complejo",
+      "fenomeno": "dep_cruzada_genero_roto",
+      "texto": "ana, luis y pedro son doctora, ingeniera y abogado respectivamente",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "ADV",
+          "dep": "nsubj",
+          "head": "doctora",
+          "morph": {}
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "pedro",
+          "morph": {}
+        },
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "son",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "doctora",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "doctora",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "ingeniera",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "abogado",
+          "morph": {}
+        },
+        {
+          "texto": "abogado",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "respectivamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "doctora",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "nivel": "3_complejo",
+      "fenomeno": "oracion_relativa_que",
+      "texto": "el libro que lee ana es grande",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "libro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "libro",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "grande",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "PRON",
+          "dep": "obj",
+          "head": "lee",
+          "morph": {
+            "PronType": "Int,Rel"
+          }
+        },
+        {
+          "texto": "lee",
+          "pos": "VERB",
+          "dep": "acl",
+          "head": "libro",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "ana",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "lee",
+          "morph": {}
+        },
+        {
+          "texto": "es",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "grande",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "grande",
+          "pos": "ADJ",
+          "dep": "ROOT",
+          "head": "grande",
+          "morph": {
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_y_concordancia_distancia",
+      "texto": "los niños que duermen en el parque son felices",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niños",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niños",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "felices",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "duermen",
+          "morph": {
+            "PronType": "Int,Rel"
+          }
+        },
+        {
+          "texto": "duermen",
+          "pos": "VERB",
+          "dep": "acl",
+          "head": "niños",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "parque",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "parque",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "parque",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duermen",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "son",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "felices",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "felices",
+          "pos": "ADJ",
+          "dep": "ROOT",
+          "head": "felices",
+          "morph": {
+            "Number": "Plur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "nivel": "3_complejo",
+      "fenomeno": "objeto_directo_con_a_personal",
+      "texto": "ana vio a juan en el parque",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "vio",
+          "morph": {}
+        },
+        {
+          "texto": "vio",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "vio",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "a",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "juan",
+          "morph": {}
+        },
+        {
+          "texto": "juan",
+          "pos": "PROPN",
+          "dep": "obj",
+          "head": "vio",
+          "morph": {}
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "parque",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "parque",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "parque",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "vio",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_fuera_lexico_v",
+      "texto": "la carta que escriben los estudiantes es roja",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "la",
+          "pos": "DET",
+          "dep": "det",
+          "head": "carta",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "carta",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "es",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "PRON",
+          "dep": "obj",
+          "head": "escriben",
+          "morph": {
+            "PronType": "Int,Rel"
+          }
+        },
+        {
+          "texto": "escriben",
+          "pos": "VERB",
+          "dep": "acl",
+          "head": "carta",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "los",
+          "pos": "DET",
+          "dep": "det",
+          "head": "estudiantes",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "estudiantes",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "escriben",
+          "morph": {
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "es",
+          "pos": "AUX",
+          "dep": "ROOT",
+          "head": "es",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "roja",
+          "pos": "ADJ",
+          "dep": "ccomp",
+          "head": "es",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "nivel": "3_complejo",
+      "fenomeno": "cadena_sp_anidados",
+      "texto": "el niño duerme en el parque con el perro negro",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "duerme",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "duerme",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "en",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "parque",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "parque",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "parque",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "con",
+          "pos": "ADP",
+          "dep": "case",
+          "head": "perro",
+          "morph": {}
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "perro",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "perro",
+          "pos": "NOUN",
+          "dep": "obl",
+          "head": "duerme",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "negro",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "perro",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "nivel": "3_complejo",
+      "fenomeno": "subordinada_anidada_modo",
+      "texto": "pedro quiere que ana diga que luis venga",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "quiere",
+          "morph": {}
+        },
+        {
+          "texto": "quiere",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "quiere",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "diga",
+          "morph": {}
+        },
+        {
+          "texto": "ana",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "diga",
+          "morph": {}
+        },
+        {
+          "texto": "diga",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "quiere",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "SCONJ",
+          "dep": "mark",
+          "head": "venga",
+          "morph": {}
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "nsubj",
+          "head": "venga",
+          "morph": {}
+        },
+        {
+          "texto": "venga",
+          "pos": "VERB",
+          "dep": "ccomp",
+          "head": "diga",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_con_adverbio",
+      "texto": "el niño que corre rápido come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niño",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niño",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "corre",
+          "morph": {
+            "PronType": "Int,Rel"
+          }
+        },
+        {
+          "texto": "corre",
+          "pos": "VERB",
+          "dep": "acl",
+          "head": "niño",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "rápido",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "corre",
+          "morph": {}
+        },
+        {
+          "texto": "come",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "come",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Sing",
+            "Person": "1",
+            "Tense": "Past",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "el",
+          "pos": "DET",
+          "dep": "det",
+          "head": "pescado",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Masc",
+            "Number": "Sing",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "pescado",
+          "pos": "NOUN",
+          "dep": "obj",
+          "head": "come",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "nivel": "3_complejo",
+      "fenomeno": "relativa_y_tiempo_verbal",
+      "texto": "las niñas felices que duermen llegan ayer",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "las",
+          "pos": "DET",
+          "dep": "det",
+          "head": "niñas",
+          "morph": {
+            "Definite": "Def",
+            "Gender": "Fem",
+            "Number": "Plur",
+            "PronType": "Art"
+          }
+        },
+        {
+          "texto": "niñas",
+          "pos": "NOUN",
+          "dep": "nsubj",
+          "head": "llegan",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "felices",
+          "pos": "ADJ",
+          "dep": "amod",
+          "head": "niñas",
+          "morph": {
+            "Number": "Plur"
+          }
+        },
+        {
+          "texto": "que",
+          "pos": "PRON",
+          "dep": "nsubj",
+          "head": "duermen",
+          "morph": {
+            "PronType": "Int,Rel"
+          }
+        },
+        {
+          "texto": "duermen",
+          "pos": "VERB",
+          "dep": "acl",
+          "head": "niñas",
+          "morph": {
+            "Mood": "Sub",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "llegan",
+          "pos": "VERB",
+          "dep": "ROOT",
+          "head": "llegan",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "ayer",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "llegan",
+          "morph": {}
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "nivel": "3_complejo",
+      "fenomeno": "dependencia_cruzada_n4",
+      "texto": "ana, luis, pedro y maría son doctora, ingeniero, abogado y doctora respectivamente",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false,
+      "modelo": "es_core_news_md",
+      "tokens": [
+        {
+          "texto": "ana",
+          "pos": "ADV",
+          "dep": "nsubj",
+          "head": "doctora",
+          "morph": {}
+        },
+        {
+          "texto": "luis",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "pedro",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "maría",
+          "morph": {}
+        },
+        {
+          "texto": "maría",
+          "pos": "PROPN",
+          "dep": "conj",
+          "head": "ana",
+          "morph": {}
+        },
+        {
+          "texto": "son",
+          "pos": "AUX",
+          "dep": "cop",
+          "head": "doctora",
+          "morph": {
+            "Mood": "Ind",
+            "Number": "Plur",
+            "Person": "3",
+            "Tense": "Pres",
+            "VerbForm": "Fin"
+          }
+        },
+        {
+          "texto": "doctora",
+          "pos": "NOUN",
+          "dep": "ROOT",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "ingeniero",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "abogado",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Masc",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "y",
+          "pos": "CCONJ",
+          "dep": "cc",
+          "head": "doctora",
+          "morph": {}
+        },
+        {
+          "texto": "doctora",
+          "pos": "NOUN",
+          "dep": "conj",
+          "head": "doctora",
+          "morph": {
+            "Gender": "Fem",
+            "Number": "Sing"
+          }
+        },
+        {
+          "texto": "respectivamente",
+          "pos": "ADV",
+          "dep": "advmod",
+          "head": "doctora",
+          "morph": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "LLM_few-shot (gemini-3.5-flash)": [
+    {
+      "id": "I11",
+      "nivel": "2_intermedio",
+      "fenomeno": "modo_erroneo_ind_esperado",
+      "texto": "yo creo que tú vengas",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I12",
+      "nivel": "2_intermedio",
+      "fenomeno": "sp_fuera_lexico",
+      "texto": "la profesora miró la carta con atención",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": true
+    },
+    {
+      "id": "I13",
+      "nivel": "2_intermedio",
+      "fenomeno": "adj_adv_sp_combinados",
+      "texto": "el perro grande duerme ayer en el parque",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I14",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_1p",
+      "texto": "ana sabe que nosotros leemos los libros",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I15",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_3p_subj",
+      "texto": "pedro espera que las niñas lleguen",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I16",
+      "nivel": "2_intermedio",
+      "fenomeno": "genero_comun_adv",
+      "texto": "los estudiantes felices leen siempre",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I17",
+      "nivel": "2_intermedio",
+      "fenomeno": "adv_entre_v_y_obj",
+      "texto": "el niño come rápidamente el pescado",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I18",
+      "nivel": "2_intermedio",
+      "fenomeno": "sn_con_sp_locativo",
+      "texto": "la gata pequeña duerme en la mesa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I19",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_adv_modo",
+      "texto": "luis piensa que el perro corre lentamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I20",
+      "nivel": "2_intermedio",
+      "fenomeno": "error_conc_det_adj",
+      "texto": "el gato rojos duerme en el parque",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C01",
+      "nivel": "3_complejo",
+      "fenomeno": "recursion_subordinada_doble",
+      "texto": "maría dice que juan cree que el niño duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C02",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_adjuncion_adv",
+      "texto": "juan dice que el niño duerme lentamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C03",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_pp_sv_sn",
+      "texto": "el niño come el pescado en la casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C04",
+      "nivel": "3_complejo",
+      "fenomeno": "ambiguedad_pp_y_pragmatica",
+      "texto": "el niño vio la casa con el telescopio",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "C05",
+      "nivel": "3_complejo",
+      "fenomeno": "sujeto_omitido_pro_drop",
+      "texto": "comemos el pescado",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    }
+  ]
+}

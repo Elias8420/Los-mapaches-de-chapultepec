@@ -1,0 +1,5 @@
+sistema,nivel,total,TP,TN,FP,FN,errores_etiquetado,precision,cobertura_recall,tasa_rechazo_correcto,exactitud
+LLM_few-shot (gemini-3.5-flash),GLOBAL,15,2,1,0,12,5,1.0,0.1429,1.0,0.2
+LLM_few-shot (gemini-3.5-flash),1_simple,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+LLM_few-shot (gemini-3.5-flash),2_intermedio,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+LLM_few-shot (gemini-3.5-flash),3_complejo,15,2,1,0,12,5,1.0,0.1429,1.0,0.2

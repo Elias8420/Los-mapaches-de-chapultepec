@@ -1,0 +1,5 @@
+sistema,nivel,total,TP,TN,FP,FN,errores_etiquetado,precision,cobertura_recall,tasa_rechazo_correcto,exactitud
+spaCy (es_core_news_md),GLOBAL,60,40,8,2,10,9,0.9524,0.8,0.8,0.8
+spaCy (es_core_news_md),1_simple,20,11,5,1,3,6,0.9167,0.7857,0.8333,0.8
+spaCy (es_core_news_md),2_intermedio,20,15,2,1,2,3,0.9375,0.8824,0.6667,0.85
+spaCy (es_core_news_md),3_complejo,20,14,1,0,5,0,1.0,0.7368,1.0,0.75

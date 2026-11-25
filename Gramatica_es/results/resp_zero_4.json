@@ -1,0 +1,92 @@
+[
+{
+"id": "C06",
+"aceptada": false,
+"error_etiquetado": false,
+"motivo": "Las producciones de O exigen SNs antes de SV (sujeto antes del predicado); la inversión SV no está permitida."
+},
+{
+"id": "C07",
+"aceptada": true,
+"error_etiquetado": false,
+"motivo": "Derivable desde O -> SNs_3s SV_3s con SN_fs (Det_fs N_fs ADJS_fs) y SVn_3s MV (Vi_3s + ε)."
+},
+{
+"id": "C08",
+"aceptada": true,
+"error_etiquetado": false,
+"motivo": "Derivable desde O -> SNs_3s SV_3s con SN_ms, Vt_3s y objeto directo SNo (SN_fs)."
+},
+{
+"id": "C09",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática no define reglas de coordinación ('y'), predicados copulativos ('son') ni adverbios como 'respectivamente' en MV."
+},
+{
+"id": "C10",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática carece de coordinación/enumeración ('y', comas), verbo copulativo 'son' y el término 'respectivamente'."
+},
+{
+"id": "C11",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática no contempla coordinación, cópula 'son' ni 'respectivamente' (además de la discordancia de género 'ingeniera' para 'luis')."
+},
+{
+"id": "C12",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "No existen reglas de cláusulas relativas con 'que' ni cópula 'es' seguida de adjetivo predicativo."
+},
+{
+"id": "C13",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática no define oraciones de relativo con 'que' ni construcción copulativa 'son' + adjetivo."
+},
+{
+"id": "C14",
+"aceptada": false,
+"error_etiquetado": false,
+"motivo": "La preposición 'a' con objeto directo humano ('a juan') no encaja en SNo (SN_ms | SN_mp | SN_fs | SN_fp)."
+},
+{
+"id": "C15",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "Faltan reglas de oración relativa ('que') y cópula ('es') con adjetivo predicativo."
+},
+{
+"id": "C16",
+"aceptada": true,
+"error_etiquetado": false,
+"motivo": "Derivable desde O -> SNs_3s SV_3s con Vi_3s y MV -> SP MV -> SP SP ('en el parque' y 'con el perro negro')."
+},
+{
+"id": "C17",
+"aceptada": false,
+"error_etiquetado": false,
+"motivo": "Solo permite un nivel de incrustación subordinada (SVn_3s -> Vcs_3s Que Os), no cadenas recursivas de 'que'."
+},
+{
+"id": "C18",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática no incluye oraciones de relativo introducidas por 'que'."
+},
+{
+"id": "C19",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "Carece de oraciones de relativo ('que') y presenta discordancia temporal entre 'llegan' (presente) y 'ayer' (pasado)."
+},
+{
+"id": "C20",
+"aceptada": false,
+"error_etiquetado": true,
+"motivo": "La gramática carece de coordinación/comas, verbo copulativo 'son' y el elemento 'respectivamente'."
+}
+]

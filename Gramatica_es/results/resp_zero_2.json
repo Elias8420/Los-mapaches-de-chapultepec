@@ -1,0 +1,17 @@
+[
+{"id": "S16", "aceptada": false, "error_etiquetado": false, "motivo": "Falta de concordancia persona/número entre SNs_1s ('yo') y SV_2s ('comes')."},
+{"id": "S17", "aceptada": false, "error_etiquetado": false, "motivo": "Falta de concordancia número entre SNs_3p ('las niñas') y SV_3s ('lee')."},
+{"id": "S18", "aceptada": false, "error_etiquetado": false, "motivo": "Falta de concordancia género/número en el SN inicial ('un casas blancas') y orden SVO no derivado en O."},
+{"id": "S19", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante O -> SNs_3s SV_3s con SN_ms ('el perro'), Vi_3s ('ladró') y MV -> Adv MV ('fuerte')."},
+{"id": "S20", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante O -> SNs_3s SV_3s con NP_f ('sofía') y Vi_3s ('come') más MV -> ε."},
+{"id": "I01", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva con SN_ms -> Det_ms N_ms ADJS_ms ('el gato negro grande') y Vt_3s SNo ('come el pescado')."},
+{"id": "I02", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante O -> SNs_3s SV_3s con SN_ms ('el niño'), Vi_3s ('corre') y MV -> Adv MV ('rápidamente')."},
+{"id": "I03", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante O -> SNs_3s SV_3s con SN_ms ('el niño'), Vi_3s ('duerme') y MV -> SP MV ('en la casa')."},
+{"id": "I04", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_3s -> Vci_3s Que O con 'dice que' e incrustación de 'el gato come el pescado'."},
+{"id": "I05", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_3s -> Vci_3s Que O con 'cree que' e incrustación de 'el niño duerme'."},
+{"id": "I06", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_3s -> Vcs_3s Que Os con 'quiere que' y subordinada subjuntiva 'el gato venga'."},
+{"id": "I07", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_1s -> Vcs_1s Que Os con 'quiero que' y subordinada subjuntiva 'tú vengas'."},
+{"id": "I08", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_3s -> Vcs_3s Que Os con 'quiere que' y subordinada subjuntiva 'el niño coma el pescado'."},
+{"id": "I09", "aceptada": true, "error_etiquetado": false, "motivo": "Se deriva mediante SVn_1s -> Vci_1s Que O con 'creo que' e incrustación indicativa 'tú vienes'."},
+{"id": "I10", "aceptada": false, "error_etiquetado": false, "motivo": "'quiero que' requiere Vcs_1s Que Os con verbo en subjuntivo, pero 'vienes' corresponde a indicativo (no deriva en Os)."}
+]

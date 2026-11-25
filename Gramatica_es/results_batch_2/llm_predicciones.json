@@ -1,0 +1,139 @@
+{
+  "LLM_zero-shot (gemini-3.8-flash)": [
+    {
+      "id": "S16",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_pers_sv",
+      "texto": "yo comes el pescado",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "S17",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_num_sv",
+      "texto": "las niñas lee el libro",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "S18",
+      "nivel": "1_simple",
+      "fenomeno": "error_conc_multiple",
+      "texto": "un casas blancas compró luis",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "S19",
+      "nivel": "1_simple",
+      "fenomeno": "fuera_lexico_v_adv",
+      "texto": "el perro ladró fuerte",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": true
+    },
+    {
+      "id": "S20",
+      "nivel": "1_simple",
+      "fenomeno": "transitivo_sin_obj_cfg",
+      "texto": "sofía come",
+      "esperado_valido": true,
+      "pred_valida": false,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I01",
+      "nivel": "2_intermedio",
+      "fenomeno": "multiples_adjetivos",
+      "texto": "el gato negro grande come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I02",
+      "nivel": "2_intermedio",
+      "fenomeno": "adverbio_modo",
+      "texto": "el niño corre rápidamente",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I03",
+      "nivel": "2_intermedio",
+      "fenomeno": "frase_preposicional_sv",
+      "texto": "el niño duerme en la casa",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I04",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_indicativo",
+      "texto": "juan dice que el gato come el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I05",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_indicativo",
+      "texto": "maría cree que el niño duerme",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I06",
+      "nivel": "2_intermedio",
+      "fenomeno": "subordinada_subjuntivo",
+      "texto": "juan quiere que el gato venga",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I07",
+      "nivel": "2_intermedio",
+      "fenomeno": "subjuntivo_2s",
+      "texto": "yo quiero que tú vengas",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I08",
+      "nivel": "2_intermedio",
+      "fenomeno": "subjuntivo_vt",
+      "texto": "juan quiere que el niño coma el pescado",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I09",
+      "nivel": "2_intermedio",
+      "fenomeno": "indicativo_creer",
+      "texto": "yo creo que tú vienes",
+      "esperado_valido": true,
+      "pred_valida": true,
+      "error_etiquetado": false
+    },
+    {
+      "id": "I10",
+      "nivel": "2_intermedio",
+      "fenomeno": "modo_erroneo_subj_esperado",
+      "texto": "yo quiero que tú vienes",
+      "esperado_valido": false,
+      "pred_valida": false,
+      "error_etiquetado": false
+    }
+  ]
+}

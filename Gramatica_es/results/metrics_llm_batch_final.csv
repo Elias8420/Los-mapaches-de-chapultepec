@@ -1,0 +1,9 @@
+sistema,nivel,total,TP,TN,FP,FN,errores_etiquetado,precision,cobertura_recall,tasa_rechazo_correcto,exactitud
+LLM_few-shot_batch,GLOBAL,60,33,10,0,17,8,1.0,0.66,1.0,0.7167
+LLM_few-shot_batch,1_simple,20,12,6,0,2,2,1.0,0.8571,1.0,0.9
+LLM_few-shot_batch,2_intermedio,20,15,3,0,2,1,1.0,0.8824,1.0,0.9
+LLM_few-shot_batch,3_complejo,20,6,1,0,13,5,1.0,0.3158,1.0,0.35
+LLM_zero-shot_batch,GLOBAL,60,33,10,0,17,2,1.0,0.66,1.0,0.7167
+LLM_zero-shot_batch,1_simple,20,11,6,0,3,2,1.0,0.7857,1.0,0.85
+LLM_zero-shot_batch,2_intermedio,20,15,3,0,2,0,1.0,0.8824,1.0,0.9
+LLM_zero-shot_batch,3_complejo,20,7,1,0,12,0,1.0,0.3684,1.0,0.4

@@ -1,0 +1,17 @@
+[
+  {"id": "S01", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_ms (Det_ms N_ms) + SV_3s (Vt_3s SNo[Det_ms N_ms])"},
+  {"id": "S02", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_fs (Det_fs N_fs) + SV_3s (Vt_3s SNo[Det_ms N_ms])"},
+  {"id": "S03", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SNs_1s (Pron_1s) + SV_1s (Vt_1s SNo[Det_fs N_fs])"},
+  {"id": "S04", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_fs (NP_f) + SV_3s (Vt_3s SNo[Det_fs N_fs])"},
+  {"id": "S05", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_mp (Det_mp N_mp) + SV_3p (Vi_3p)"},
+  {"id": "S06", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SNs_1p (Pron_1p) + SV_1p (Vt_1p SNo[Det_mp N_mp])"},
+  {"id": "S07", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_fs (Det_fs N_fs ADJS_fs[Adj_fs]) + SV_3s (Vt_3s SNo[Det_ms N_ms])"},
+  {"id": "S08", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_mp (Det_mp N_mp ADJS_mp[Adj_mp]) + SV_3p (Vi_3p)"},
+  {"id": "S09", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_fs (Det_fs N_fs ADJS_fs[Adj_fs]) + SV_3s (Vi_3s)"},
+  {"id": "S10", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SN_ms (NP_m) + SV_3s (Vt_3s SNo[Det_fs N_fs])"},
+  {"id": "S11", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SNs_3p (Pron_3p) + SV_3p (Vi_3p)"},
+  {"id": "S12", "aceptada": true, "error_etiquetado": false, "motivo": "Derivación válida: SNs_2s (Pron_2s) + SV_2s (Vt_2s SNo[Det_fs N_fs])"},
+  {"id": "S13", "aceptada": false, "error_etiquetado": false, "motivo": "Fallo de concordancia de género en sujeto: Det_fs ('la') no combina con N_ms ('gato') en SN_fs ni SN_ms"},
+  {"id": "S14", "aceptada": false, "error_etiquetado": false, "motivo": "Fallo de concordancia de género en adjetivo: Det_ms N_ms ('el gato') no permite ADJS_fs ('negra')"},
+  {"id": "S15", "aceptada": false, "error_etiquetado": false, "motivo": "Fallo de concordancia de número sujeto-verbo: SNs_3p ('los gatos') requiere SV_3p, pero 'duerme' es Vi_3s"}
+]

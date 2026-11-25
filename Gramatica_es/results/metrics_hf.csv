@@ -1,0 +1,5 @@
+sistema,nivel,total,TP,TN,FP,FN,errores_etiquetado,precision,cobertura_recall,tasa_rechazo_correcto,exactitud
+HF (bert-spanish-cased-finetuned-pos),GLOBAL,60,50,0,10,0,9,0.8333,1.0,0.0,0.8333
+HF (bert-spanish-cased-finetuned-pos),1_simple,20,14,0,6,0,2,0.7,1.0,0.0,0.7
+HF (bert-spanish-cased-finetuned-pos),2_intermedio,20,17,0,3,0,4,0.85,1.0,0.0,0.85
+HF (bert-spanish-cased-finetuned-pos),3_complejo,20,19,0,1,0,3,0.95,1.0,0.0,0.95

@@ -622,3 +622,4 @@ El proyecto constituye una base para futuras ampliaciones del subconjunto de C++
 **Pruebas automatizadas ejecutadas:** 13
 
 **Resultado de las pruebas:** OK
+

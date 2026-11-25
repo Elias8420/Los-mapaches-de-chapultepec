@@ -1,0 +1,92 @@
+[
+    {
+        "id": "I11",
+        "aceptada": false,
+        "error_etiquetado": false,
+        "motivo": "SVn_1s -> Vci_1s Que O exige modo indicativo en O ('vienes'), no subjuntivo ('vengas')."
+    },
+    {
+        "id": "I12",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vt_3s SNo y MV -> SP MV ('con atención')."
+    },
+    {
+        "id": "I13",
+        "aceptada": false,
+        "error_etiquetado": false,
+        "motivo": "Tiempo verbal en presente ('duerme') incompatible con adverbio de pasado ('ayer') o restricción léxica/semántica formal."
+    },
+    {
+        "id": "I14",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vci_3s Que O ('nosotros leemos los libros')."
+    },
+    {
+        "id": "I15",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vcs_3s Que Os ('las niñas lleguen')."
+    },
+    {
+        "id": "I16",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3p SV_3p con SN_mp -> Det_mp N_mp ADJS_mp y MV -> Adv MV."
+    },
+    {
+        "id": "I17",
+        "aceptada": false,
+        "error_etiquetado": false,
+        "motivo": "En SVn_3s -> Vt_3s SNo, MV va tras el núcleo verbal/complemento y no intercala Adv antes de SNo."
+    },
+    {
+        "id": "I18",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con SN_fs -> Det_fs N_fs ADJS_fs y MV -> SP MV ('en la mesa')."
+    },
+    {
+        "id": "I19",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vci_3s Que O ('el perro corre lentamente')."
+    },
+    {
+        "id": "I20",
+        "aceptada": false,
+        "error_etiquetado": false,
+        "motivo": "Discordancia de número en SN_ms -> Det_ms N_ms ADJS_ms ('el gato rojos')."
+    },
+    {
+        "id": "C01",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable con recursión de Vci_3s Que O ('maría dice que ... juan cree que ... el niño duerme')."
+    },
+    {
+        "id": "C02",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vci_3s Que O y MV -> Adv MV ('lentamente')."
+    },
+    {
+        "id": "C03",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vt_3s SNo y MV -> SP MV ('en la casa')."
+    },
+    {
+        "id": "C04",
+        "aceptada": true,
+        "error_etiquetado": false,
+        "motivo": "Derivable en O -> SNs_3s SV_3s con Vt_3s SNo y MV -> SP MV ('con el telescopio')."
+    },
+    {
+        "id": "C05",
+        "aceptada": false,
+        "error_etiquetado": false,
+        "motivo": "Las reglas de O requieren SNs explícito antes de SV."
+    }
+]
