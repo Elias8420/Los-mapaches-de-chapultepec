@@ -91,8 +91,8 @@ def reporte():
             c = celda(estado, n, real, desde, v)
             fila += f"{c:<15}"
             if v >= desde:
-                clave = ("lexico" if c == "léxico" else "ok" if c.startswith("✅")
-                         else "sobre" if "sobre" in c else "falta")
+                clave = ("lexico" if c == "léxico" else "ok" if c.startswith("correcto")
+         else "sobre" if "sobre" in c else "falta")
                 totales[v][clave] += 1
         print(fila)
 
@@ -127,6 +127,9 @@ def experimento_respectivamente():
 
 def main():
     args = sys.argv[1:]
+    dibujar = "--grafico" in args
+    args = [arg for arg in args if arg != "--grafico"]
+
     if not args:
         return reporte()
     if args[0] == "gramatica":
@@ -142,9 +145,19 @@ def main():
     if not arboles:
         return print(f"Rechazada por la versión {v}: {parser.diagnostico()}")
     print(f"✅ Aceptada por la versión {v}: {len(arboles)} árbol(es)\n")
+   
     for i, a in enumerate(arboles, 1):
         print(f"--- árbol {i} ---")
         a.imprimir()
+
+    if dibujar:
+        try:
+            for a in arboles:
+                a.a_nltk().draw()
+        except ImportError:
+            print("Instala NLTK y Tkinter para visualizar los árboles.")
+        except Exception as e:
+            print(f"No se pudo abrir la ventana gráfica: {e}")
 
 
 if __name__ == "__main__":
